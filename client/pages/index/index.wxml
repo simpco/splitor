@@ -13,7 +13,6 @@
         </view>
     </view>
 
-
     <!-- 上传图片测试 -->
     <view class="uploader">
         <view class="uploader-text" bindtap="doUpload">
@@ -29,11 +28,18 @@
         </view>
     </view>
 
-
     <!-- 上传图片测试 -->
     <view class="uploader">
         <navigator url="../addCgi/addCgi" open-type="navigate" class="uploader-text">
             <text>快速增加 CGI</text>
         </navigator>
+    </view>
+
+    <!-- 分享测试 -->
+    <view class="uploader">
+        <button open-type="share" class="uploader-text">
+            <text>分享</text>
+            <!-- <button open-type="share"></button> -->
+        </button>
     </view>
 </view>
